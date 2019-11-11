@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(226, 217, 217);
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    background-color:white;
+}
+.navbar {
+    width: 25%;
+    border-right: 1px solid rgb(226, 217, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-img {
+    width: 30%;
+    margin-top: 40px;
+}
+.navbar-home {
+    width: 65%;
+    height: 160px;
+    background-color: rgba(241, 232, 232, 0.781);
+    border-radius: 7px;
+    margin-top: 70px;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+ul li {
+    margin-top: 10px;
+    color: rgb(182, 171, 171);
+}
+ul li:hover {
+    color: black;
+    cursor: pointer;
+    transition-duration: 1000ms;
+}
+.navbar-update {
+    width: 65%;
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgba(241, 232, 232, 0.781);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+}
+.navb-upd-img {
+    width: 10%;
+    height: 30%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.navb-h1 {
+    font-size: 13px;
+    height: 20%;
+}
+.navb-p {
+    font-size: 10px;
+    height: 80%;
+    color: rgb(182, 171, 171);
+}
+#cont {
+    height: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 80%;
+    line-height: 0;
+}
+.navbar-boxes {
+    width: 65%;
+    height: 100px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.navbar-box {
+    width: 47%;
+    background-color: rgba(241, 232, 232, 0.781);
+    height: 100%;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 3px;
+}
+.navbar-footer-img {
+    width: 20%;
+    height: 70%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.navbar-box h1 {
+    font-size: 20px;
+}
+.navbar-box p {
+    color: rgb(182, 171, 171);
+}
+.content {
+    width: 40%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.streaming {
+    width: 100%;
+    height: 18%;
+}
+.popular-this-week {
+    width: 100%;
+    height: 50%;
+}
+.top-tutors {
+    width: 100%;
+    height: 30%;
+}
+.headers {
+    font-size: 15px;
+}
+.pics {
+    width: 40px;
+    height: 40px;
+    border-radius: 13px;
+    padding: 2px;
+    border: 2px solid red;
+    margin-left: 5px;
+}
+.content-boxes {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-box {
+    width: 45%;
+    height: 95%;
+    border-radius: 10px;
+}
+.back-img-1 {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-fashion-cartoon-38-women-s-day-queen-s-day-shopping-background-image_200838.jpg');
+    background-size: cover;
+}
+.back-img-2 {
+    background-image: url('https://www.jakpost.travel/wimages/large/99-997617_lisa-simpson-les-simpson-cartoon-profile-pics-sad.png');
+    background-size: cover;
+}
+.top-tutors-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.top-tutors-container div {
+    width: 46%;
+    height: 50px;
+    background-color: rgba(241, 232, 232, 0.781);
+    border-radius: 7px;
+}
+.search {
+    width: 30%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.search-advanced {
+    width: 100%;
+    height: 23%;
+}
+.search-advanced input {
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(224, 209, 209);
+    background-color: rgba(241, 232, 232, 0.781);
+    margin-right: 15px;
+}
+.search-advanced button {
+    height: 40px;
+    border-radius: 7px;
+    background-color: orangered;
+    color: white;
+    width: 60px;
+    border: none;
+}
+.search-boxes {
+    width: 80%;
+    display: flex;
+    height: 42%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-box-1 {
+    width: 100%;
+    border-radius: 7px;
+    height: 47%;
+    background-image: url('https://i.quotev.com/img/q/u/15/2/3/d8ea459e11-imag.jpg');
+    background-size: cover;
+}
+.search-box {
+    width: 48%;
+    border-radius: 7px;
+    height: 46%;
+}
+.cartoon-1 {
+    background-image: url('https://d10frqznkjv786.cloudfront.net/2017/02/04/437173/138028/female_cartoon_character_01_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1626289_o.png');
+    background-size: cover;
+}
+.cartoon-2 {
+    background-image: url('https://www.yumyumvideos.com/wp-content/uploads/2017/04/wondering.jpg');
+    background-size: cover;
+}
+.special-offers {
+    width: 80%;
+    height: 30%;
+}
+.spec-off {
+    width: 100%;
+    height: 65%;
+    border-radius: 7px;
+    background-color: rgb(193, 221, 236);
+}
